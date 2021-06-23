@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         if(timeleft==0){
             document.getElementById("questiontext").style.display='none';
         }else{
-        document.getElementById("questiontext").innerHTML=questionMsg[display_index];
+        document.getElementById("questiontext").innerHTML=questionMsg[display_index-1];
         document.getElementById("questiontext").style.transition="0.5s";
         }
     }
